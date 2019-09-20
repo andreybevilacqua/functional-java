@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FunctionOverTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/costs/FixedCosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/costs/FixedCosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/docker/localstack.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568978255755</updated>
-      <workItem from="1568978257286" duration="3120000" />
+      <workItem from="1568978257286" duration="3346000" />
     </task>
     <servers />
   </component>
