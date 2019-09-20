@@ -1,4 +1,5 @@
 import costs.FixedCosts;
+import costs.IncrementalCosts;
 import sales.Profit;
 import sales.Sales;
 

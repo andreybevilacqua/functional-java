@@ -1,4 +1,4 @@
-package sales;
+package quantity;
 
 public interface QuantityOfInterest {
 

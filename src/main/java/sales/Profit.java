@@ -1,5 +1,6 @@
 package sales;
 
+import quantity.QuantityOfInterest;
 import costs.FixedCosts;
 import costs.IncrementalCosts;
 

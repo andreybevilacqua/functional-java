@@ -1,6 +1,6 @@
-package sales;
+package quantity;
 
-abstract class MonthByMonthQuantity implements QuantityOfInterest {
+public abstract class MonthByMonthQuantity implements QuantityOfInterest {
 
   private final double[] values;
 

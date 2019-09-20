@@ -1,6 +1,6 @@
 package costs;
 
-import sales.QuantityOfInterest;
+import quantity.QuantityOfInterest;
 
 public class PolynomialQuantity implements QuantityOfInterest {
 
