@@ -9,8 +9,10 @@ public class Example {
 
     final Sales sales =
         new Sales(FunctionOverTime.monthByMonth(EXPECTED_SALES_JAN_TO_DEC));
+
     final FixedCosts fixedCosts =
         new FixedCosts(FunctionOverTime.constant(15.0));
+
     final IncrementalCosts incrementalCosts =
         new IncrementalCosts(FunctionOverTime.line(5.1, 0.15));
 
