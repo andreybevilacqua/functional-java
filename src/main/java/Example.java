@@ -1,8 +1,3 @@
-import costs.FixedCosts;
-import costs.IncrementalCosts;
-import sales.Profit;
-import sales.Sales;
-
 public class Example {
 
   private final static double[] EXPECTED_SALES_JAN_TO_DEC =
@@ -10,11 +5,15 @@ public class Example {
 
   public static void main(final String[] args) {
 
-    final FixedCosts fixedCosts = new FixedCosts(15.0);
-    final IncrementalCosts incrementalCosts = new IncrementalCosts(5.1, 0.15);
-    final Sales sales = new Sales(EXPECTED_SALES_JAN_TO_DEC);
+    final FunctionOverTime sales =
+        (time) -> EXPECTED_SALES_JAN_TO_DEC[time - 1];
 
-    final Profit profit = new Profit(sales, incrementalCosts, fixedCosts);
+    final FunctionOverTime fixedCosts =
+        (time) -> 0.15;
+    final FunctionOverTime incrementalCosts =
+        (time) -> (5.1 + 0.15) * time;
+    final FunctionOverTime profit =
+        (time) -> sales.valueAt(time) - (fixedCosts.valueAt(time) + incrementalCosts.valueAt(time));
 
     double total = 0;
     for(int i = 1; i <= 12; i++) {
