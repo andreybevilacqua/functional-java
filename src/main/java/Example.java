@@ -11,11 +11,10 @@ public class Example {
   public static void main(final String[] args) {
 
     final FixedCosts fixedCosts = new FixedCosts(15.0);
-    final IncrementalCosts incrementalCosts = new IncrementalCosts(5.1, 0,15);
+    final IncrementalCosts incrementalCosts = new IncrementalCosts(5.1, 0.15);
+    final Sales sales = new Sales(EXPECTED_SALES_JAN_TO_DEC);
 
     final Profit profit = new Profit(sales, incrementalCosts, fixedCosts);
-
-    final Sales sales = new Sales(EXPECTED_SALES_JAN_TO_DEC);
 
     double total = 0;
     for(int i = 1; i <= 12; i++) {
