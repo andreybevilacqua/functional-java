@@ -1,3 +1,5 @@
+import functions.FunctionOverTime;
+
 public class Example {
 
   private final static double[] EXPECTED_SALES_JAN_TO_DEC =
@@ -5,15 +7,12 @@ public class Example {
 
   public static void main(final String[] args) {
 
-    final FunctionOverTime sales =
-        (time) -> EXPECTED_SALES_JAN_TO_DEC[time - 1];
+    final FunctionOverTime sales = FunctionOverTime.monthByMonth(EXPECTED_SALES_JAN_TO_DEC);
+    final FunctionOverTime fixedCosts = FunctionOverTime.constant(15.0);
+    final FunctionOverTime incrementalCosts = FunctionOverTime.line(5.1, 0.15);
 
-    final FunctionOverTime fixedCosts =
-        (time) -> 0.15;
-    final FunctionOverTime incrementalCosts =
-        (time) -> (5.1 + 0.15) * time;
     final FunctionOverTime profit =
-        (time) -> sales.valueAt(time) - (fixedCosts.valueAt(time) + incrementalCosts.valueAt(time));
+        FunctionOverTime.combinationOf3(sales, incrementalCosts, fixedCosts, (s, ic, fc) -> s - ic - fc);
 
     double total = 0;
     for(int i = 1; i <= 12; i++) {
