@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/FunctionOverTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FixedCosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IncrementalCosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Profit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functions/QuantityOfInterest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionOverTime.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,11 +68,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Groovy" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Quantity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="functions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -111,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568978255755</updated>
-      <workItem from="1568978257286" duration="5080000" />
+      <workItem from="1568978257286" duration="5776000" />
     </task>
     <servers />
   </component>
