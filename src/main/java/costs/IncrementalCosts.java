@@ -1,17 +1,19 @@
+package costs;
+
 import functions.QuantityOfInterest;
 import functions.FunctionOverTime;
 
-public class FixedCosts implements QuantityOfInterest {
+public class IncrementalCosts implements QuantityOfInterest {
 
   private final FunctionOverTime valueFunction;
 
-  public FixedCosts(FunctionOverTime valueFunction) {
+  public IncrementalCosts(FunctionOverTime valueFunction) {
     this.valueFunction = valueFunction;
   }
 
   @Override
   public String getName() {
-    return "Fixed Costs";
+    return "Incremental Costs";
   }
 
   @Override

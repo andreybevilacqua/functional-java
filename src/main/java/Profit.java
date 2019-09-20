@@ -1,4 +1,7 @@
+import costs.FixedCosts;
+import costs.IncrementalCosts;
 import functions.QuantityOfInterest;
+import sales.Sales;
 
 public class Profit implements QuantityOfInterest {
 

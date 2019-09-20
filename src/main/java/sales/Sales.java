@@ -1,3 +1,5 @@
+package sales;
+
 import functions.QuantityOfInterest;
 import functions.FunctionOverTime;
 
@@ -11,7 +13,7 @@ public class Sales implements QuantityOfInterest {
 
   @Override
   public String getName() {
-    return "Sales";
+    return "sales.Sales";
   }
 
   @Override
