@@ -1,3 +1,7 @@
+package costs;
+
+import sales.QuantityOfInterest;
+
 public class PolynomialQuantity implements QuantityOfInterest {
 
   private final double[] coefficients;

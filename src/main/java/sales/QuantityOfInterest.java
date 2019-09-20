@@ -1,3 +1,5 @@
+package sales;
+
 public interface QuantityOfInterest {
 
   String getName();

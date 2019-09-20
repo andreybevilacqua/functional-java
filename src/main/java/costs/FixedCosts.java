@@ -1,3 +1,5 @@
+package costs;
+
 public class FixedCosts extends PolynomialQuantity {
 
   public FixedCosts(double[] coefficients) {

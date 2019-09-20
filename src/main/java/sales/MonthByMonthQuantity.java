@@ -1,3 +1,5 @@
+package sales;
+
 abstract class MonthByMonthQuantity implements QuantityOfInterest {
 
   private final double[] values;

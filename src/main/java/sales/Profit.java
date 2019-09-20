@@ -1,3 +1,8 @@
+package sales;
+
+import costs.FixedCosts;
+import costs.IncrementalCosts;
+
 public class Profit implements QuantityOfInterest {
 
   private final Sales sales;
@@ -11,7 +16,7 @@ public class Profit implements QuantityOfInterest {
   }
 
   public String getName() {
-    return "Profit!!!";
+    return "sales.Profit!!!";
   }
 
   public double valueAt(final int time) {

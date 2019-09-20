@@ -1,3 +1,7 @@
+import costs.FixedCosts;
+import sales.Profit;
+import sales.Sales;
+
 public class Example {
 
   private final static double[] EXPECTED_SALES_JAN_TO_DEC =
