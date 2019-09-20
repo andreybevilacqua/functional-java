@@ -9,7 +9,7 @@ public class Profit implements QuantityOfInterest {
   private final IncrementalCosts incrementalCosts;
   private final FixedCosts fixedCosts;
 
-  public Profit(Sales sales, IncrementalCosts incrementalCosts, FixedCosts fixedCosts) {
+  Profit(Sales sales, IncrementalCosts incrementalCosts, FixedCosts fixedCosts) {
     this.sales = sales;
     this.incrementalCosts = incrementalCosts;
     this.fixedCosts = fixedCosts;

@@ -23,7 +23,7 @@ public class Example {
         new Profit(sales, incrementalCosts, fixedCosts);
 
     double total = 0;
-    for(int i = 1; i <= 12; i++) {
+    for(int i = 1; i < 12; i++) {
       total += profit.valueAt(i);
     }
 
