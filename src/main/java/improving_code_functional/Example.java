@@ -9,6 +9,7 @@ public class Example {
     final Double costs = timed("Cost calculation", Example::calculateCosts);
     final Double revenue = timed("Revenue calculation", Example::calculateRevenue);
     final Double profit = timed("Profit calculation", () -> calculateProfit(costs, revenue));
+    final String proveThatYouCanExecuteAnyFunction = timed("String calculation", Example::calculateString);
 
     System.out.println("Profit = $" + profit);
   }
@@ -21,6 +22,11 @@ public class Example {
   private static Double calculateRevenue() {
     pretendToWorkHard();
     return 23413.2;
+  }
+
+  private static String calculateString() {
+    pretendToWorkHard();
+    return "My important String";
   }
 
   private static Double calculateProfit(Double costs, Double revenue) {
