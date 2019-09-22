@@ -1,6 +1,7 @@
 package improving_code_functional;
 
 import static improving_code_functional.Timing.timed;
+import static java.lang.Math.random;
 
 public class Example {
 
@@ -31,7 +32,7 @@ public class Example {
 
   private static void pretendToWorkHard() {
     try {
-      Thread.sleep(5000);
+      Thread.sleep((long) (random() * 100));
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
