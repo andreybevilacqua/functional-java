@@ -1,11 +1,14 @@
 package improving_code_functional;
 
+import static improving_code_functional.Timing.timed;
+
 public class Example {
 
   public static void main(final String[] args) {
-    final Double costs = calculateCosts();
-    final Double revenue = calculateRevenue();
-    final Double profit = calculateProfit(costs, revenue);
+
+    final Double costs = timed("Cost calculation", Example::calculateCosts);
+    final Double revenue = timed("Revenue calculation", Example::calculateRevenue);
+    final Double profit = timed("Profit calculation", () -> calculateProfit(costs, revenue));
 
     System.out.println("Profit = $" + profit);
   }
