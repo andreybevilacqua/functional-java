@@ -4,6 +4,7 @@
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/improving_code_functional/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/improving_code_functional/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/improving_code_functional/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/improving_code_functional/Timing.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568978255755</updated>
       <workItem from="1568978257286" duration="6783000" />
-      <workItem from="1569158440471" duration="1466000" />
+      <workItem from="1569158440471" duration="1609000" />
     </task>
     <servers />
   </component>

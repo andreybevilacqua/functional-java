@@ -6,7 +6,6 @@ import static java.lang.Math.random;
 public class Example {
 
   public static void main(final String[] args) {
-
     final Double costs = timed("Cost calculation", Example::calculateCosts);
     final Double revenue = timed("Revenue calculation", Example::calculateRevenue);
     final Double profit = timed("Profit calculation", () -> calculateProfit(costs, revenue));
