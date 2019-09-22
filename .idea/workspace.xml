@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/improving_code_functional/TimingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/improving_code_functional/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/improving_code_functional/Timing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -62,6 +65,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -72,14 +78,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Groovy" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="improving_code_functional" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Quantity" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="functions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="functions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example (1)">
+  <component name="RunManager" selected="JUnit.TimingTest.timedTest">
     <configuration name="Example (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="improving_code_functional.Example" />
       <module name="functional-java" />
@@ -115,8 +127,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimingTest.timedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="improving_code_functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="improving_code_functional" />
+      <option name="MAIN_CLASS_NAME" value="improving_code_functional.TimingTest" />
+      <option name="METHOD_NAME" value="timedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimingTest.timedTest" />
         <item itemvalue="Application.Example (1)" />
         <item itemvalue="Application.Example" />
       </list>
@@ -133,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568978255755</updated>
       <workItem from="1568978257286" duration="6783000" />
-      <workItem from="1569158440471" duration="2220000" />
+      <workItem from="1569158440471" duration="2656000" />
     </task>
     <servers />
   </component>
