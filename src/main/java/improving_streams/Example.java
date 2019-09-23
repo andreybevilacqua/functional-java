@@ -74,7 +74,7 @@ public class Example {
   }
 
   static Stream<Sale> saleStream() {
-    return RandomSale.streamOf(30000000);
+    return RandomSale.streamOf(300000);
   }
 
   static Optional<Sale> findSaleOf(String itemName) {

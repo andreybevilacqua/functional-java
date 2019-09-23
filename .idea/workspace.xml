@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/improving_streams/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/improving_streams/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/improving_streams/random/RandomSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/improving_streams/random/RandomSale.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +178,7 @@
       <workItem from="1568978257286" duration="6783000" />
       <workItem from="1569158440471" duration="2992000" />
       <workItem from="1569222919276" duration="91000" />
-      <workItem from="1569261864728" duration="3849000" />
+      <workItem from="1569261864728" duration="3876000" />
     </task>
     <servers />
   </component>
