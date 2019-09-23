@@ -20,7 +20,7 @@ public class RandomSale {
     return Stream.generate(supplier).limit(qty);
   }
 
-  public static Supplier<Sale> supplier = () -> new Sale(
+  private static Supplier<Sale> supplier = () -> new Sale(
       pickAStore(),
       new Date(),
       pickACustomer(),
