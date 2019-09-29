@@ -79,9 +79,11 @@ public class Example {
 
   static Optional<Sale> findSaleOf(String itemName) {
     return saleStream().filter(sale ->
-        sale.items.stream().anyMatch(item ->
-            item.identity.equals(itemName)))
-        .findFirst();
+        sale.items
+            .stream()
+            .anyMatch(item ->
+              item.identity.equals(itemName)))
+            .findFirst();
   }
 
   // Customer who bought a carrot
