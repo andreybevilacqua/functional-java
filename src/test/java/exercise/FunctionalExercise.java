@@ -52,5 +52,9 @@ public class FunctionalExercise {
       System.out.println("You see...");
       assertEquals(1, resultToBeSentAsResult.size());
     }
+
+    // Take the case of the SomePerson class.
+    Person somePerson = new SomePerson("some-name", 35);
+    somePerson = new SomePerson("another-name", 41);
   }
 }

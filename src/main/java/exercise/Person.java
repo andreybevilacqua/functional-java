@@ -17,4 +17,9 @@ public class Person {
   public int getAge() {
     return age;
   }
+
+  // With the final, this method cannot be @Override
+  public final int checkAge() {
+    return 21;
+  }
 }
