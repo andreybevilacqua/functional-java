@@ -7,7 +7,7 @@ public class Test {
 
   private final List foo; // the final here is to initialize the list only once.
 
-  private final int testIntValue; // in primitive variables, the final make it be set only once (memory and performance gain)
+  private final int testIntValue; // in primitive variables, the final make it be set only once
 
   private final String testStringValue;
 

@@ -4,6 +4,7 @@
     <list default="true" id="21a911df-4af2-4367-88ab-f758afccfa35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exercise/FunctionalExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercise/FunctionalExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.FunctionalExercise.attributesToFinalTest">
     <configuration name="Example (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="improving_streams.Example" />
       <module name="functional-java" />
@@ -173,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.FunctionalExercise.attributesToFinalTest" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.Example (2)" />
         <item itemvalue="JUnit.TimingTest.timedTest" />
@@ -199,7 +200,7 @@
       <workItem from="1569308949426" duration="371000" />
       <workItem from="1569755669603" duration="1822000" />
       <workItem from="1570612093049" duration="695000" />
-      <workItem from="1580661296283" duration="1456000" />
+      <workItem from="1580661296283" duration="2566000" />
     </task>
     <servers />
   </component>
@@ -220,25 +221,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="324" key="GridCell.Tab.0.bottom" timestamp="1580662373329">
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom" timestamp="1580663849196">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580662373329" />
-    <state width="1638" height="324" key="GridCell.Tab.0.center" timestamp="1580662373327">
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580663849196" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center" timestamp="1580663849196">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580662373327" />
-    <state width="1638" height="324" key="GridCell.Tab.0.left" timestamp="1580662373326">
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580663849196" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left" timestamp="1580663849195">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580662373326" />
-    <state width="1638" height="324" key="GridCell.Tab.0.right" timestamp="1580662373328">
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580663849195" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right" timestamp="1580663849196">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580662373328" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1580661814341">
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580663849196" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1580662846865">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1580661814341" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1580662846865" />
   </component>
 </project>
